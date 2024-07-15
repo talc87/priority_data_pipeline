@@ -107,7 +107,7 @@ a {
 ### About The Project
 
 Priority is an ERP system for S&M business. <br>
-The project builds your Priority using on a Postgres DB using the it's API. The API allow you to get the data exactly the same way the business user sees it on the Priority GUI. Unlike connecting to the Priority SQL DB which requires the BI developer to create the user business logics using SQL queries.
+The project builds your Priority DWH based on a Postgres DB using the Priority ERP API. The API allow you to get the data exactly the same way the business user sees it on the Priority GUI. Unlike connecting to the Priority SQL DB which requires the BI developer to create the user business logics using SQL queries.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
