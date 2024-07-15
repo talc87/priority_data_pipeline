@@ -1,0 +1,267 @@
+{
+	"_id": "65fddeb2721b0abe0f9c04ff",
+	"datasourceName": "priority_companyA",
+	"uri": "https://www.eshbelsaas.com/ui/odata/Priority/tabmob.ini/usdemo/",
+	"apiUsername": "apidemo",
+	"apiPassword": "123",
+	"accountID": "03445d66",
+	"systemTimezone": "Israel",
+	"sourceSystem": "priority",
+	"entities": [
+		{
+			"EntityID": "FAMILY_LOG",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "2024-07-11 22:20:19",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "DOCUMENTS_D",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "2024-07-11 21:58:33",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "CURRENCIES",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "2024-07-11 21:58:40",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "TRANSORDER_DN",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "2024-07-11 21:58:47",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "DOCTYPES",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "2024-07-11 21:58:54",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "ORDERS",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": ["ORDERITEMS"],
+			"lastRun": "2024-06-12 21:53:35",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "CTYPE",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "2024-06-12 21:53:40",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "TRIALBAL",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "2024-06-12 21:53:44",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "BRANCHES",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "2024-06-12 21:53:49",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "ORDISINGLE",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "2024-06-08 23:06:39",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "LOGFILE",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "2024-06-12 21:54:04",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "SALESINVOICEITEMS",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "2024-06-12 21:54:10",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "OBLIGO",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [
+				"OBLIGO_ORDERS",
+				"OBLIGO_TRANS",
+				"OBLIGO_PROJ",
+				"OBLIGO_IV",
+				"OBLIGO_CHECKS",
+				"OBLIGO_CHECKS2"
+			],
+			"lastRun": "2024-06-12 21:54:45",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "CUSTCAMPAIGNSA",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "2024-06-12 21:54:51",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "CPROF",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": ["CPROFITEMS"],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "CPROFISINGLE",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "AGENTS",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "DOCUMENTS_N",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "DOCUMENTS_P",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "CUSTOMERS",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "FNCTRANS",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "CUSTSTATS",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "SALESTARGETS",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": ["SALESTARGETITEMS"],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "DOCUMENTS_A",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "LEADS",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "PART",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "AGENTORDERSWAREA",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "ACCOUNTS",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "PARTSPEC_ONE",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "SUPPLIERS",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "DOCUMENTS_C",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		}
+	]
+}

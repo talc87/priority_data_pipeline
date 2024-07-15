@@ -1,0 +1,10 @@
+sqlDB:
+  sqlConnStr: postgresql+psycopg2://<username>:<password>@<url>:<port>/
+
+mongoDB:
+  mongoDbConnStr: mongodb+srv://<username>:<password>@<url>/
+
+  metadataDbName: MetadataDB
+  configDbName: admin
+  configCollectionName: configCollection
+  datatypeMappingCollectionName: datatypeMapping
