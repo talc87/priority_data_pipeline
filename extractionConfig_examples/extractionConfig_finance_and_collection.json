@@ -1,0 +1,61 @@
+{
+	"_id": "65fddeb2721b0abe0f9c04ff",
+	"datasourceName": "priority_companyA",
+	"uri": "https://www.eshbelsaas.com/ui/odata/Priority/tabmob.ini/usdemo/",
+	"apiUsername": "apidemo",
+	"apiPassword": "123",
+	"accountID": "03445d66",
+	"systemTimezone": "Israel",
+	"sourceSystem": "priority",
+	"entities": [
+		{
+			"EntityID": "TRIALBAL",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "2024-06-12 21:53:44",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+
+		{
+			"EntityID": "OBLIGO",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": ["OBLIGO_FNCITEMS"],
+			"lastRun": "2024-06-12 21:54:45",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "FNCLOG",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "ACCOUNTS",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "ACCTYPES",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "CUSTOMERS",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "",
+			"datarStartDate": "2020-05-30 00:00:00"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"_id": "65fddeb2721b0abe0f9c04ff",
+	"datasourceName": "priority_companyA",
+	"uri": "https://www.eshbelsaas.com/ui/odata/Priority/tabmob.ini/usdemo/",
+	"apiUsername": "apidemo",
+	"apiPassword": "123",
+	"accountID": "03445d66",
+	"systemTimezone": "Israel",
+	"sourceSystem": "priority",
+	"entities": [
+		{
+			"EntityID": "ORDERS",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": ["ORDERITEMS"],
+			"lastRun": "2024-06-12 21:53:35",
+			"datarStartDate": "2020-05-30 00:00:00"
+		},
+		{
+			"EntityID": "CTYPE",
+			"filterFlag": false,
+			"filterField": "",
+			"expand": [],
+			"lastRun": "2024-06-12 21:53:40",
+			"datarStartDate": "2020-05-30 00:00:00"
+		}
+	]
+}
