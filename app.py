@@ -64,15 +64,13 @@ def getExtractionconfig(route_function):
 
 
 
-@app.route('/deployMongoDB', methods=['POST'])
-# @getExtractionconfig # ---> run custom decorator to fetch the getExtractionconfig json
-def deployMongoDB():
-    
-    logging.debug('deploying mongoDB data type mapping collecyion')
-    mongodbHelper.deployMongodb(mongodbConnStr,metadataDbName,datatypeMappingCollectionName)
-    
-    return jsonify({'Results': f"MongoDB deployed successfully "}), 200
+@app.route('/')
+def home():
 
+  
+    return jsonify({'MomongoDB connection string': mongodbConnStr
+                    ,'SQL connection string' : sqlConnStr
+                    }),200
 
 
 @app.route('/pingApi')
@@ -236,5 +234,8 @@ def deleteAllTables():
 
 
 
+
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(host='0.0.0.0', port=5000)  # This is fine since it's running on port 5000 inside the container
+
+

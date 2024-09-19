@@ -7,6 +7,16 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %
 
 
 def deployMongodb(uri:str,dbName:str,collectionName:str):
+    """
+    The method connects to a MongoDB instance, clears an existing collection, 
+    and loads new data mapping documents from a JSON file.
+
+    Args:
+        uri (str): MongoDB connection string.
+        dbName (str): Name of the database to connect to.
+        collectionName (str): Name of the collection to clear and insert data into.
+        
+    """
 
     # Connect to the MongoDB instance using the connection string
     client = MongoClient(uri)

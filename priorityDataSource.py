@@ -11,7 +11,6 @@ from sqlalchemy import create_engine,inspect
 from sqlalchemy.exc import SQLAlchemyError
 import pytz
 from resources import config
-from urllib.parse import quote_plus
 
 
 
